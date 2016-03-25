@@ -1,0 +1,13 @@
+Source: hello
+Section: misc
+Priority: extra
+Maintainer: Baurzhan Ismagulov <ibr@radix50.net>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/ilbers/hello
+
+Package: hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Sample application
+ Sample application that can be used as a skeleton.
