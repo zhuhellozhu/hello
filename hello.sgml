@@ -1,0 +1,53 @@
+<!doctype refentry PUBLIC "-//OASIS//DTD DocBook V4.1//EN">
+
+<refentry>
+  <refentryinfo>
+    <address>
+      <email>ibr@radix50.net</email>
+    </address>
+    <author>
+      <firstname>Baurzhan</firstname>
+      <surname>Ismagulov</surname>
+    </author>
+    <copyright>
+      <year>2016</year>
+      <holder>ilbers GmbH</holder>
+    </copyright>
+    <date>March 25, 2016</date>
+  </refentryinfo>
+
+  <refmeta>
+    <refentrytitle>HELLO</refentrytitle>
+    <manvolnum>1</manvolnum>
+  </refmeta>
+
+  <refnamediv>
+    <refname>hello</refname>
+    <refpurpose>Sample application</refpurpose>
+  </refnamediv>
+
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>hello</command>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+
+  <refsect1>
+    <title>DESCRIPTION</title>
+
+    <para><application>hello</application> is a sample application that can be
+      used as a skeleton.</para>
+  </refsect1>
+
+  <refsect1>
+    <title>EXIT STATUS</title>
+
+    <para><application>hello</application> always returns zero.</para>
+  </refsect1>
+
+  <refsect1>
+    <title>AUTHOR</title>
+
+    <para>Baurzhan Ismagulov <email>ibr@radix50.net</email></para>
+  </refsect1>
+</refentry>
