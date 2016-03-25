@@ -1,0 +1,12 @@
+DB2MAN = docbook-to-man
+RM = rm
+
+bin_PROGRAMS = hello
+hello_SOURCES = hello.c
+man1_MANS = hello.1
+
+hello.1: hello.sgml
+	$(DB2MAN) $< >$@
+
+clean-local:
+	-$(RM) -f $(man1_MANS)
