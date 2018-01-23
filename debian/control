@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9), autotools-dev
 Standards-Version: 3.9.5
 Homepage: https://github.com/ilbers/hello
 
-Package: hello
+Package: example-hello
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Sample application
