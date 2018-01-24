@@ -2,6 +2,8 @@ AC_INIT([hello],[0.1])
 AM_INIT_AUTOMAKE(1.10 nostdinc foreign)
 AC_CONFIG_HEADERS([config.h])
 
+AM_MAINTAINER_MODE([disable])
+
 AC_PREREQ(2.59)
 
 AC_PROG_CC
