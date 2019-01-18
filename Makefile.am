@@ -1,10 +1,10 @@
 DB2MAN = docbook-to-man
 RM = rm
 
-bin_PROGRAMS = hello
+bin_PROGRAMS = hello-isar
 hello_SOURCES = hello.c
 hello_LDADD = -lhello
-man1_MANS = hello.1
+man1_MANS = hello-isar.1
 
 hello.1: hello.sgml
 	$(DB2MAN) $< >$@

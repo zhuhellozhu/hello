@@ -1,4 +1,4 @@
-AC_INIT([hello],[0.1])
+AC_INIT([hello-isar],[0.3])
 AM_INIT_AUTOMAKE(1.10 nostdinc foreign)
 AC_CONFIG_HEADERS([config.h])
 

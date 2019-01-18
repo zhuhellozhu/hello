@@ -1,3 +1,9 @@
+hello-isar (0.3) unstable; urgency=low
+
+  * Rename to hello-isar to avoid collisions with Debian Hello.
+
+ -- Maxim Yu. Osipov <mosipov@ilbers.de>  Fri, 18 Jan 2019 12:00:00 +0100
+
 hello (0.2) unstable; urgency=low
 
   * Add libhello dependency.

@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: hello
+Upstream-Name: hello-isar
 Source: https://github.com/ilbers/hello
 
 Files: *
-Copyright: 2016 ilbers GmbH
+Copyright: 2016-2019 ilbers GmbH
 License: GPL-2

@@ -10,39 +10,39 @@
       <surname>Ismagulov</surname>
     </author>
     <copyright>
-      <year>2016</year>
+      <year>2016-2019</year>
       <holder>ilbers GmbH</holder>
     </copyright>
     <date>March 25, 2016</date>
   </refentryinfo>
 
   <refmeta>
-    <refentrytitle>HELLO</refentrytitle>
+    <refentrytitle>HELLO-ISAR</refentrytitle>
     <manvolnum>1</manvolnum>
   </refmeta>
 
   <refnamediv>
-    <refname>hello</refname>
+    <refname>hello-isar</refname>
     <refpurpose>Sample application</refpurpose>
   </refnamediv>
 
   <refsynopsisdiv>
     <cmdsynopsis>
-      <command>hello</command>
+      <command>hello-isar</command>
     </cmdsynopsis>
   </refsynopsisdiv>
 
   <refsect1>
     <title>DESCRIPTION</title>
 
-    <para><application>hello</application> is a sample application that can be
+    <para><application>hello-isar</application> is a sample application that can be
       used as a skeleton.</para>
   </refsect1>
 
   <refsect1>
     <title>EXIT STATUS</title>
 
-    <para><application>hello</application> always returns zero.</para>
+    <para><application>hello-isar</application> always returns zero.</para>
   </refsect1>
 
   <refsect1>

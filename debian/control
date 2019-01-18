@@ -1,4 +1,4 @@
-Source: hello
+Source: hello-isar
 Section: misc
 Priority: extra
 Maintainer: Baurzhan Ismagulov <ibr@radix50.net>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9), libhello-dev, docbook-to-man
 Standards-Version: 3.9.5
 Homepage: https://github.com/ilbers/hello
 
-Package: example-hello
+Package: hello-isar
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Sample application
