@@ -2,11 +2,11 @@ DB2MAN = docbook-to-man
 RM = rm
 
 bin_PROGRAMS = hello-isar
-hello_SOURCES = hello.c
-hello_LDADD = -lhello
+hello_isar_SOURCES = hello.c
+hello_isar_LDADD = -lhello
 man1_MANS = hello-isar.1
 
-hello.1: hello.sgml
+hello-isar.1: hello.sgml
 	$(DB2MAN) $< >$@
 
 clean-local:
