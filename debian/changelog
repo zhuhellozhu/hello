@@ -1,3 +1,9 @@
+hello-isar (0.4) unstable; urgency=low
+
+  * Update to bookworm.
+
+ -- Baurzhan Ismagulov <ibr@ilbers.de>  Mon, 22 Jan 2024 15:37:27 +0100
+
 hello-isar (0.3) unstable; urgency=low
 
   * Rename to hello-isar to avoid collisions with Debian Hello.
