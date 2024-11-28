@@ -18,7 +18,7 @@ include /usr/share/dpkg/default.mk
 
 override_dh_auto_build:
 	@echo "Listing /usr/lib directory during build:"
-	ls -l /usr/lib 
+	ls -l /usr/lib/aarch64-linux-gnu
 	ls -l /usr/include
 	dh_auto_build
 
