@@ -16,6 +16,11 @@ include /usr/share/dpkg/default.mk
 # package maintainers to append LDFLAGS
 #export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
+override_dh_auto_build:
+	@echo "Listing /usr/lib directory during build:"
+	ls -l /usr/lib 
+	ls -l /usr/include
+	dh_auto_build
 
 # main packaging script based on dh7 syntax
 %:
